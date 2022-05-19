@@ -20,7 +20,7 @@ from utils.data_processing import get_tiies, get_udis_usd
 from utils.constants import *
 
 # Initial config
-server = flask.Flask(__name__)
+
 app = Dash(
     __name__,
     suppress_callback_exceptions=True, 
@@ -31,7 +31,7 @@ app = Dash(
         {"name": "viewport", "content": "width=device-width, initial-scale=1"}
     ]
 )
-
+server = app.server
 
 # App Layout
 app.layout = html.Div([

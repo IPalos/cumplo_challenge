@@ -1,0 +1,46 @@
+body{
+    background-color: #E5E7E6;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	margin-bottom: 16px;
+	padding:0px;
+}
+
+.scorecard {
+	height: 120px;
+	margin-bottom:24px;
+	margin-left: 12px;
+	margin-right: 12px;
+	background: rgba(184, 12, 9, 1);
+	opacity: 1;
+	border-radius: 8px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.scorecard-data {
+	color: rgba(229, 231, 230, 1);
+	top: 41px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 36px;
+	opacity: 1;
+	text-align: center;
+}
+
+.scorecard-title {
+	color: rgba(229, 231, 230, 1);
+	top: 9px;
+	font-family: Arial;
+	font-weight: Regular;
+	font-size: 24px;
+	opacity: 1;
+	text-align: center;
+}
+
+.card-plot{
+	border-radius: 8px;
+}
